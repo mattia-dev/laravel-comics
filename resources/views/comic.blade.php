@@ -1,6 +1,8 @@
 @extends('templates.layout')
 
-@section('title', 'Comic')
+@section('title')
+    {{ $comics[$arrayIndex]['title'] }}
+@endsection
 
 @section('content')
 

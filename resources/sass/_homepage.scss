@@ -1,0 +1,44 @@
+main{
+    .comics-panel {
+        position: relative;
+        background-color: $light-black;
+
+        .panel-heading {
+            position: absolute;
+            top: -35px;
+            left: 60px;
+            color: $white;
+            font-size: 28px;
+            font-weight: bold;
+            min-width: 420px;
+            background-color: $light-blue;
+            padding: 10px 30px;
+        }
+
+        .comics {
+            padding: 60px 15px 15px;
+
+            .comic {
+                margin-bottom: 15px;
+
+                a {
+                    color: #7e7e7e;
+                    text-decoration: none;
+                    
+                    &:hover{
+                        color: #fff;
+                    }
+                }
+
+                img {
+                    width: 100%;
+                }
+
+                h3 {
+                    margin: 12px 0;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}

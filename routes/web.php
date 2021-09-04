@@ -20,7 +20,7 @@ Route::get('/', function () {
     ]);
 })->name('homepage');
 
-Route::get('/comic/{id}', function ($id) {
+Route::get('/comic/{id}-{comicTitle}', function ($id) {
     $comics = config('comics');
     $arrayIndex = $id - 1;
     return view('comic',[

@@ -17169,6 +17169,53 @@ header .jumbotron {
   padding: 0;
 }
 
+main .comics-panel {
+  position: relative;
+  background-color: #1c1c1c;
+}
+
+main .comics-panel .panel-heading {
+  position: absolute;
+  top: -35px;
+  left: 60px;
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: bold;
+  min-width: 420px;
+  background-color: #00a9d9;
+  padding: 10px 30px;
+}
+
+main .comics-panel .comics {
+  padding: 60px 15px 15px;
+}
+
+main .comics-panel .comics .comic {
+  margin-bottom: 15px;
+}
+
+main .comics-panel .comics .comic a {
+  color: #7e7e7e;
+  text-decoration: none;
+}
+
+main .comics-panel .comics .comic a:hover {
+  color: #fff;
+}
+
+main .comics-panel .comics .comic img {
+  width: 100%;
+}
+
+main .comics-panel .comics .comic h3 {
+  margin: 12px 0;
+  font-size: 12px;
+}
+
+.product-main {
+  background: #fff;
+}
+
 .blue-bar {
   height: 100px;
   background-color: #00a9d9;

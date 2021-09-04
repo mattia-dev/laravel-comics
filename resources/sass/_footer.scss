@@ -1,0 +1,139 @@
+.blue-bar {
+    height: 100px;
+    background-color: $light-blue;
+
+    ul {
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        list-style: none;
+
+        li {
+            a {
+                text-decoration: none;
+                display: flex;
+                align-items: center;
+                color: $white;
+
+                img {
+                    height: 42px;
+                    margin-right: 12px;
+                }
+
+                div {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+.main-bar {
+    background-image: url(/img/footer-bg.jpg);
+    background-size: cover;
+
+    .container {
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        .left-content {
+            flex-grow: .5;
+            display: flex;
+            justify-content: space-between;
+            align-self: center;
+        
+            .list-box {
+                align-self: flex-start;
+
+                ul {
+                    list-style: none;
+                    margin-top: 16px;
+
+                    li {
+                        color: $grey;
+                        font-size: 14px;
+                        margin-bottom: 4px;
+                        transition: .2s;
+
+                        &:not(:first-child) {
+                            cursor: pointer;
+                        }
+
+                        &:hover:not(:first-child) {
+                            color: $light-grey;
+                        }
+
+                        &:first-child {
+                            color: $white;
+                            font-size: 18px;
+                            font-weight: 600;
+                            margin-bottom: 12px;
+                        }
+
+                        &:last-child {
+                            margin-bottom: 16px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .right-content {
+            width: 40%;
+            background-image: url(/img/dc-logo-bg.png);
+            background-position: center;
+            background-size: cover;
+        }
+    }
+}
+
+.social-bar {
+    height: 100px;
+    background-color: $dark-grey;
+
+    .container {
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .footer-button {
+            color: $white;
+            padding: 12px;
+            border: 3px solid $light-blue;
+            cursor: pointer;
+            transition: .2s;
+
+            &:hover {
+                background-color: $light-blue;
+            }
+        }
+
+        .right-content {
+            display: flex;
+            align-items: center;
+
+            div {
+                color: $light-blue;
+                font-size: 18px;
+                font-weight: 600;
+            }
+
+            ul {
+                display: flex;
+                list-style: none;
+
+                li {
+                    margin: 0 6px;
+                    cursor: pointer;
+
+                    &:first-child {
+                        margin-left: 24px;
+                    }
+                }
+            }
+        }
+    }
+}

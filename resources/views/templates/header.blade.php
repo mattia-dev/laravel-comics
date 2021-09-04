@@ -1,6 +1,6 @@
 <div class="container">
     <div class="header-logo">
-        <img src="/img/dc-logo.png"" alt="dc-logo">
+        <a href="{{ route('homepage') }}"><img src="/img/dc-logo.png"" alt="dc-logo"></a>
     </div>
 
     <nav>
@@ -24,5 +24,3 @@
         <i class="fas fa-search"></i>
     </div>
 </div>
-
-<div class="jumbotron jumbotron-fluid"></div>

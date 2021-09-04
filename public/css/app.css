@@ -17161,7 +17161,7 @@ header .search-field input[type=text]::placeholder {
   color: #000000;
 }
 
-header .jumbotron {
+main .jumbo-home {
   background-image: url(/img/jumbotron.jpg);
   background-size: cover;
   height: 500px;
@@ -17187,33 +17187,122 @@ main .comics-panel .panel-heading {
 }
 
 main .comics-panel .comics {
-  padding: 60px 15px 15px;
+  padding: 60px 15px 12px;
 }
 
 main .comics-panel .comics .comic {
-  margin-bottom: 15px;
+  margin-bottom: 24px;
 }
 
 main .comics-panel .comics .comic a {
-  color: #7e7e7e;
   text-decoration: none;
+  color: #959595;
+  transition: 0.25s;
 }
 
 main .comics-panel .comics .comic a:hover {
-  color: #fff;
+  color: #ffffff;
 }
 
 main .comics-panel .comics .comic img {
   width: 100%;
 }
 
-main .comics-panel .comics .comic h3 {
-  margin: 12px 0;
-  font-size: 12px;
+main .comics-panel .comics .comic h6 {
+  margin: 12px 0 0 0;
 }
 
-.product-main {
-  background: #fff;
+main .jumbo-comic {
+  background-image: url(/img/jumbotron-2.jpg);
+  background-size: cover;
+  height: 500px;
+  margin: 0;
+  padding: 0;
+}
+
+main .blue-bar {
+  background-color: #00a9d9;
+  height: 60px;
+  position: relative;
+}
+
+main .blue-bar img {
+  border: 1px solid #ffffff;
+  position: absolute;
+  bottom: 30px;
+}
+
+main .comic-details {
+  padding: 48px 15px;
+}
+
+main .comic-details h1 {
+  color: #003f5e;
+}
+
+main .comic-details .green-bar {
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #55ba59;
+  color: #ffffff;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #357739;
+  margin: 25px 0;
+}
+
+main .comic-details .green-bar-price {
+  padding: 12px 18px;
+  width: 70%;
+  border-right: 1px solid #357739;
+}
+
+main .comic-details .green-bar-av {
+  text-align: center;
+  padding: 12px 18px;
+  width: 30%;
+  cursor: pointer;
+}
+
+main .comic-details p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #555555;
+}
+
+main .comic-details img {
+  width: 100%;
+}
+
+main .talents,
+main .specs {
+  margin-top: 24px;
+  padding-right: 12px;
+  color: #003f5e;
+  width: 50%;
+}
+
+main .talents .section-title,
+main .specs .section-title {
+  color: #303030;
+  margin: 0;
+  width: 35%;
+}
+
+main .talents .section-description,
+main .specs .section-description {
+  width: 65%;
+  font-size: 15px;
+}
+
+main .talents .section-description a,
+main .specs .section-description a {
+  color: #00a9d9;
+  transition: 0.25s;
+}
+
+main .talents .section-description a:hover,
+main .specs .section-description a:hover {
+  color: #3490dc;
 }
 
 .blue-bar {

@@ -1,0 +1,89 @@
+main {
+    .jumbo-comic {
+        background-image: url(/img/jumbotron-2.jpg);
+        background-size: cover;
+        height: 500px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .blue-bar{
+        background-color: $light-blue;
+        height: 60px;
+        position: relative;
+            
+        img {
+            border: 1px solid $white;
+            position: absolute;
+            bottom: 30px;
+        }
+    }
+
+    .comic-details {
+        padding: 48px 15px;
+
+        h1 {
+            color: $dark-blue;
+        }
+        
+        .green-bar {
+            font-size: 16px;
+            font-weight: 500;
+            background-color: $light-green;
+            color: $white;
+            margin-bottom: 12px;
+            border-bottom: 1px solid $dark-green;
+            margin: 25px 0;
+
+            &-price {
+                padding: 12px 18px;
+                width: 70%;
+                border-right: 1px solid $dark-green;
+            }
+
+            &-av {
+                text-align: center;
+                padding: 12px 18px;
+                width: 30%;
+                cursor: pointer;
+            }
+        }
+
+        p {
+            font-size: 16px;
+            font-weight: 400;
+            color: $medium-grey;
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .talents, .specs {
+        margin-top: 24px;
+        padding-right: 12px;
+        color: $dark-blue;
+        width: 50%;
+
+        .section-title {
+            color: $dark-grey;
+            margin: 0;
+            width: 35%;
+        }
+
+        .section-description {
+            width: 65%;
+            font-size: 15px;
+
+            a {
+                color: $light-blue;
+                transition: .25s;
+
+                &:hover {
+                    color: $blue;
+                }
+            }
+        }
+    }
+}

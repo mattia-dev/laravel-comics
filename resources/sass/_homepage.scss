@@ -1,4 +1,12 @@
-main{
+main {
+    .jumbo-home {
+        background-image: url(/img/jumbotron.jpg);
+        background-size: cover;
+        height: 500px;
+        margin: 0;
+        padding: 0;
+    }
+
     .comics-panel {
         position: relative;
         background-color: $light-black;
@@ -16,17 +24,18 @@ main{
         }
 
         .comics {
-            padding: 60px 15px 15px;
+            padding: 60px 15px 12px;
 
             .comic {
-                margin-bottom: 15px;
+                margin-bottom: 24px;
 
                 a {
-                    color: #7e7e7e;
                     text-decoration: none;
-                    
+                    color: $grey;
+                    transition: .25s;
+
                     &:hover{
-                        color: #fff;
+                        color: $white;
                     }
                 }
 
@@ -34,9 +43,8 @@ main{
                     width: 100%;
                 }
 
-                h3 {
-                    margin: 12px 0;
-                    font-size: 12px;
+                h6 {
+                    margin: 12px 0 0 0;
                 }
             }
         }

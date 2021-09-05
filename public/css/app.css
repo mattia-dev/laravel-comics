@@ -17119,7 +17119,8 @@ header .container ul li {
   transition: 0.25s;
 }
 
-header .container ul li:hover {
+header .container ul li:hover,
+header .container ul li.active {
   border-bottom: 5px solid #00a9d9;
 }
 

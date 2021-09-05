@@ -31,7 +31,7 @@ header {
                 border-bottom: 5px solid $white;
                 transition: .25s;
 
-                &:hover {
+                &:hover, &.active {
                     border-bottom: 5px solid $light-blue;
                 }
 
